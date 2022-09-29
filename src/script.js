@@ -21,7 +21,8 @@ function setColor(element) {
 }
 
 function removeColor(element) {
-  console.log(123);
+  element.style.background = "#1d1d1d";
+  element.style.boxShadom = "0 0 2px #000";
 }
 
 function getRandomColor() {
